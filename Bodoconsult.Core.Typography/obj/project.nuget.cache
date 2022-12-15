@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "x80hz4+MLpu9/3aQWhld6InMXEAhoJdEDik1TPiUpunQihhmT/aXpWulzTI/hwvx3DXZerit4mGIBQHB4kv9qg==",
+  "dgSpecHash": "gtTSmJfTAbK/6+SDJmQGQLCpOF4fEL6x8J0mrlvl4jiGiQ0hbw1Nj5Tp89Q+PtysRusl+WEw4qvShxuuOW46Fg==",
   "success": true,
-  "projectFilePath": "D:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
+  "projectFilePath": "C:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rleisner\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\rleisner\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Bodoconsult.Core.Typography")]
-[assembly: AssemblyDescription("Library for typographic settings to use for priting and charting")]
+[assembly: AssemblyDescription("Library for typographic settings to use for printing and charting")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bodoconsult GmbH")]
 [assembly: AssemblyProduct("Bodoconsult.Core.Typography")]

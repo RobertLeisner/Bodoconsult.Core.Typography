@@ -14,7 +14,7 @@ ElegantTypographyPageHeader is a typograhic style set preferring elegance over u
 
 # How to use the library
 
-The source code contains a NUnit test class, the following source code is extracted from. It sample shows the most helpful use cases for the library.
+The source code contain NUnit test classes, the following source code is extracted from. The samples below show the most helpful use cases for the library.
 
 ## Basic usage
 
@@ -134,7 +134,7 @@ The following example shows the implementation of a user-defined typographic set
 
 # About us
 
-Bodoconsult (<http://www.bodoconsult.de>) is a Munich based software company.
+Bodoconsult <http://www.bodoconsult.de> is a Munich based software company from Germany.
 
 Robert Leisner is senior software developer at Bodoconsult. See his profile on <http://www.bodoconsult.de/Curriculum_vitae_Robert_Leisner.pdf>.
 

@@ -179,27 +179,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rleisner\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\rleisner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
+      "projectUniqueName": "C:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
       "projectName": "Bodoconsult.Core.Typography",
-      "projectPath": "D:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
+      "projectPath": "C:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography.csproj",
       "packagesPath": "C:\\Users\\rleisner\\.nuget\\packages\\",
-      "outputPath": "D:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\obj\\",
+      "outputPath": "C:\\Daten\\Projekte\\Tools\\Bodoconsult.Core.Typography\\Bodoconsult.Core.Typography\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\rleisner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -210,6 +203,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {}
         }
       },
@@ -221,6 +215,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -235,11 +230,12 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -21,19 +21,15 @@ namespace Bodoconsult.Core.Typography.Charts
             Width = 750;
             Height = 464;   // Goldener Schnitt: Width / 1,618 
             Template = "default.xml";
-            FontSize = 13;
-            CopyrightFontSizeDelta = 0.8F;
             TitleFontSizeDelta = 1.2F;
             AxisLabelFontSizeDelta = 1.0F;
             AxisTitleFontSizeDelta = 1.1F;
             LegendFontSizeDelta = 0.9F;
-            FontSize = 12;
             BorderLineWidth = defaultLineWidth;
             IntervalXLineWidth = defaultLineWidth;
             IntervalYLineWidth = defaultLineWidth;
             SeriesLineWidth = defaultLineWidth;
             TitleFontName = "Cambria";
-            FontName = "Calibri";
             ChartBorderCornerRadius = 25;
             CorrectiveFactor = 5;
             ChartBorderWidth = defaultLineWidth;
@@ -44,7 +40,7 @@ namespace Bodoconsult.Core.Typography.Charts
             BackgroundColor = Color.FromArgb(208, 223, 255);
             BackgroundSecondColor = Color.FromArgb(208, 223, 255);
             BackGradientStyle = GradientStyle.None;
-            FontColor = Color.Black;
+
             TitleColor = Color.FromArgb(26, 59, 124);
             TitleShadow = false;
             CopyrightColor = Color.Black;
@@ -111,7 +107,7 @@ namespace Bodoconsult.Core.Typography.Charts
         /// <summary>
         /// Factor to higher or lower font size for copyright relative to <see cref="FontSize"/>
         /// </summary>
-        public float CopyrightFontSizeDelta { get; set; }
+        public float CopyrightFontSizeDelta { get; set; } = 0.6F;
 
         /// <summary>
         /// Factor to higher or lower font size for title relative to <see cref="FontSize"/>
@@ -141,7 +137,7 @@ namespace Bodoconsult.Core.Typography.Charts
         /// <summary>
         /// Font name used for all text labels in a chart except the title
         /// </summary>
-        public string FontName { get; set; }
+        public string FontName { get; set; } = "Calibri";
 
 
         /// <summary>
@@ -175,7 +171,7 @@ namespace Bodoconsult.Core.Typography.Charts
         /// Base font size used for the charts. Use <see cref="TitleFontSizeDelta"/>, <see cref="CopyrightFontSizeDelta"/>, <see cref="AxisLabelFontSizeDelta"/>, <see cref="LegendFontSizeDelta"/>
         /// and <see cref="AxisTitleFontSizeDelta"/> to adjusted font sizes for certain elements relative to base font size
         /// </summary>
-        public float FontSize { get; set; }
+        public float FontSize { get; set; } = 12;
 
 
 
@@ -232,6 +228,12 @@ namespace Bodoconsult.Core.Typography.Charts
         /// </summary>
         public string YAxisNumberformat { get; set; }
 
+
+        /// <summary>
+        /// Numberformat used to format values of XAxis
+        /// </summary>
+        public string XAxisNumberformat { get; set; }
+
         /// <summary>
         /// Radius in pixels for the border corners. If no rounded corners requested for the chart, set BorderCornerRadius=0
         /// </summary>
@@ -276,7 +278,7 @@ namespace Bodoconsult.Core.Typography.Charts
         /// <summary>
         /// Font color of all texts except title and copyright
         /// </summary>
-        public Color FontColor { get; set; }
+        public Color FontColor { get; set; } = Color.Black;
 
         /// <summary>
         /// Font color of the copyright

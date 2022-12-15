@@ -5,6 +5,24 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Deterministic>False</Deterministic>
     <!--<CodeAnalysisRuleSet>codeanalysis.ruleset</CodeAnalysisRuleSet>-->
+  <RepositoryUrl>https://github.com/RobertLeisner/Bodoconsult.Core.Typography</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Bodoconsult.Core.Typography</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Robert Leisner</Authors>
+    <Company>Bodoconsult EDV-Dienstleistungen GmbH</Company>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Typography PDF charts tools Golden Ratio font color</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A basic library for typographic settings used in PDF creation with Bodoconsult.Core.PDf, charting with Bodoconsult.Core.Charting or other layout oriented software projects</Description>
+	<NeutralLanguage>en</NeutralLanguage>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+
+	<ItemGroup>
+		<None Include="..\LICENSE.md" Link="LICENSE.md" />
+		<None Include="..\README.md" Link="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
